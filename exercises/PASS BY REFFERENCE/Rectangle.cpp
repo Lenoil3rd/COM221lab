@@ -8,9 +8,6 @@ void Rectangle :: assignLength(double length){
     Rect_Length= length;
 
 }
-void Rectangle :: assignLength(double width){
-    Rect_Length= width;
-}
 double Rectangle:: getLength() const {
     return Rect_Length;
 }

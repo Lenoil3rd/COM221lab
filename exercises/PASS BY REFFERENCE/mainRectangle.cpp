@@ -15,7 +15,7 @@ int main(){
  cout << "Enter width: ";
  double width;
  cin >> width;
- rectangle.assignWidth(width);// assigning width to the rectangle object
+ // assigning width to the rectangle object
 
 
  double calcArea = rectangle.area();// using the rectange's member function to calculate the area
