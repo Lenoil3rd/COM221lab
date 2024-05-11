@@ -14,3 +14,10 @@ namespace shapes{
 
     };
 }
+
+class Area {
+    public:    
+    static double calcCircleArea(const shapes::Circle& circle){
+        return   3.14159 * circle.getradius() * circle.getradius();  
+    }
+};

@@ -13,3 +13,10 @@ namespace shapes{
        };
     };
 }
+
+class Area {
+    public:
+    static double calcSquareArea(const shapes::Square& square){
+        return  square.getSideLength() * square.getSideLength();
+    }
+};

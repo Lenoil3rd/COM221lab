@@ -17,3 +17,11 @@ namespace shapes{
         };
     };
 }
+
+class Area {
+    public:
+    static double calcTriangleArea(const shapes::Triangle& triangle){
+        return 0.5 * triangle.getbase() * triangle.getheight();
+    
+    }
+};
