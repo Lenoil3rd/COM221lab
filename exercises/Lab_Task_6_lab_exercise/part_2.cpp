@@ -21,10 +21,10 @@ int main(){
         cout << "Enter number of rows (max 3): ";
         cin >> columns;
     }
-/*Double asterisk creates a pointer to an array of pointers that helps to simulate a 2D array
+/*Double asterisk(one for pointer declaration and the other one is used a the difference operator) creates a pointer to an array of pointers that helps to simulate a 2D array
 and " new double*[rows]" creates an array of 'rows' pointers to 'double' (this array will store
  individual arrays of doubles in the 2D array )*/
-    double** pArrayIn2D = new double*[rows];
+    double* *pArrayIn2D = new double*[rows];
     for (int i = 0; i < rows; i++){
         pArrayIn2D[i] = new double [columns];
             }
