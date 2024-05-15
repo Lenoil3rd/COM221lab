@@ -6,18 +6,12 @@ namespace shapes{
         double radius;
         public:
         Circle();
-        Circle(double radius): radius(radius){};
-        ~Circle();
-        double getradius(double radius)const{
-            return radius;
-        };
-
+        Circle(double radius);
+        ~Circle();        
+        double getradius(double radius);
+        void setRadius(double radius);
     };
-}
-
-class Area {
-    public:    
-    static double calcCircleArea(const shapes::Circle& circle){
-        return   3.14159 * circle.getradius() * circle.getradius();  
-    }
 };
+
+
+  
