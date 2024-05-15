@@ -7,21 +7,15 @@ namespace shapes{
         double height;
         public:
         Triangle();
-        Triangle(double base, double height):base(base),height(height){};
+        Triangle(double base, double height);
         ~Triangle();
-        double getbase()const{
-            return base;
-        };
-        double getheight()const{
-            return height;
-        };
+        double getbase()const;
+        void setbase(double base);
+        double getheight()const;
+        void setheight(double height);
+                    
     };
-}
-
-class Area {
-    public:
-    static double calcTriangleArea(const shapes::Triangle& triangle){
-        return 0.5 * triangle.getbase() * triangle.getheight();
-    
-    }
 };
+
+
+

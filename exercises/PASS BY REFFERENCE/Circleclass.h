@@ -8,7 +8,7 @@ namespace shapes{
         Circle();
         Circle(double radius);
         ~Circle();        
-        double getradius(double radius);
+        double getradius()const;
         void setRadius(double radius);
     };
 };
