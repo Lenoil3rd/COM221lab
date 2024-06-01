@@ -1,4 +1,3 @@
-#include <iostream>
 
 using namespace std;
 
@@ -37,6 +36,7 @@ and " new double*[rows]" creates an array of 'rows' pointers to 'double' (this a
             }
 for (int i = 0; i < rows; i++){
     delete[] pArrayIn2D[i];
+#include <iostream>
 }
 delete [] pArrayIn2D;
 return 0;
